@@ -152,8 +152,10 @@ aciertos.textContent = conteo.length;
 errores.textContent = conteoErrores.length;
 
 if(conteo.length === 6){
-    alert("GANASTEEE!!")
-    location.reload()
+    setTimeout(()=>{
+        alert("GANASTEEE!!")
+        location.reload()
+    }, 3000)
 } 
 }
 
