@@ -1,0 +1,36 @@
+body { 
+  margin:10px;
+}
+
+.container {
+  width:800px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  
+}
+.barra{
+  border-bottom: 2px solid blue;
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-bottom: 20px;
+}
+#my_canvas{ 
+  background:#000000; 
+  border:#000 1px solid;
+  width: 700px;
+  height: 600px;
+}
+.boton{
+    color:blue;
+    font-size: 40px;
+    background-color: rgba(0, 0, 255, 0.1);
+    cursor: pointer;
+    border-radius: 8px;
+    border:2px solid blue;
+    margin: 0px 5px;
+}
+
+.boton:hover{
+    background-color: white;
+    color: #000000;
+}
